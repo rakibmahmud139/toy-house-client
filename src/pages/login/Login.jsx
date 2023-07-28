@@ -15,14 +15,14 @@ const Login = () => {
         const email = form.email.value;
         const password = form.password.value;
 
-        // handleLoginUser(email, password)
-        //     .then(res => {
-        //         const loggedUser = res.user;
-        //         console.log(loggedUser);
-        //     })
-        //     .catch(err => {
-        //         console.log(err.message);
-        //     })
+        handleLoginUser(email, password)
+            .then(res => {
+                const loggedUser = res.user;
+                console.log(loggedUser);
+            })
+            .catch(err => {
+                console.log(err.message);
+            })
     }
     return (
         <div className="hero min-h-screen bg-gradient-to-r from-pink-100 to-purple-100 mb-12 rounded-3xl">
