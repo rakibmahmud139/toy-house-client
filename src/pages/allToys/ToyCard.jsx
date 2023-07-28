@@ -11,7 +11,7 @@ const ToyCard = ({ toy }) => {
                 <p>Sub Category: {subCategory}</p>
                 <p>Price: ${price}</p>
                 <p>Available Quantity: {available_quantity}</p>
-                <Link to={`/allToys/:${_id}`}><button className='btn btn-outline btn-accent'>View Details</button></Link>
+                <Link to={`/allToys/${_id}`}><button className='btn btn-outline btn-accent'>View Details</button></Link>
             </div>
         </div>
     );
