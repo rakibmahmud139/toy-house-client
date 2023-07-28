@@ -10,6 +10,7 @@ import MyToys from "../pages/myToys/MyToys";
 import UpdateToys from "../pages/updateToys/UpdateToys";
 import PrivateRoute from "./PrivateRoute";
 import Blog from "../pages/Blog/Blog";
+import ErrorPage from "../pages/errorPage/ErrorPage";
 
 
 
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
     {
         path: '/',
         element: <Main />,
+        errorElement: <ErrorPage />,
         children: [
             {
                 path: '/',
