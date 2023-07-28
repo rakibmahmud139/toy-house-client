@@ -8,9 +8,9 @@ const ShopByCategory = () => {
             <h2 className='text-4xl text-center mb-12 underline uppercase'>Shop By Category</h2>
             <Tabs>
                 <TabList>
-                    <Tab><h3 className='text-2xl'>Bus Category</h3></Tab>
-                    <Tab><h3 className='text-2xl'>Truck Category</h3></Tab>
-                    <Tab><h3 className='text-2xl'>Train Category</h3></Tab>
+                    <Tab><h3 className='text-2xl'>Racing Cars</h3></Tab>
+                    <Tab><h3 className='text-2xl'>Monster Trucks</h3></Tab>
+                    <Tab><h3 className='text-2xl'>Farm Vehicles</h3></Tab>
                 </TabList>
 
                 <TabPanel>
