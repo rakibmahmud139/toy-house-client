@@ -21,8 +21,8 @@ const NabBar = () => {
         <li> <Link to='/allToys' className='text-gray-100 text-[16px]'>All Toys</Link> </li>
         {user ?
             <>
-                <li><Link to='/myToys' className='text-gray-100 text-[16px]'>My Toys</Link> </li>
                 <li> <Link to='/addToy' className='text-gray-100 text-[16px]'>Add Toys</Link> </li>
+                <li><Link to='/myToys' className='text-gray-100 text-[16px]'>My Toys</Link> </li>
                 <li> <button onClick={handleSignOut} className='text-gray-100 text-[16px]'>Logout</button> </li>
                 <li className='text-gray-100 ml-12'><img className='w-12 h-12 rounded-full' src={user?.photoURL} alt="" /></li>
             </>

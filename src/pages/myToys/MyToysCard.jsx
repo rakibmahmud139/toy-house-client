@@ -1,7 +1,14 @@
 import React from 'react';
+import { IoTrashOutline } from "react-icons/io5";
 
-const MyToysCard = ({ toy }) => {
-    const { img, toyName, price, available_quantity, rating, detail, } = toy;
+
+
+
+const MyToysCard = ({ toy, handleDelete }) => {
+    const { img, toyName, price, available_quantity, rating, detail, _id } = toy;
+
+
+
     return (
         <tr>
             <th>
@@ -26,7 +33,7 @@ const MyToysCard = ({ toy }) => {
                 {available_quantity}
             </td>
             <th>
-                <button className="btn btn-ghost btn-xs">details</button>
+                <button onClick={() => handleDelete(_id)} className="btn btn-outline btn-accent text-3xl"><IoTrashOutline /></button>
             </th>
         </tr>
 
