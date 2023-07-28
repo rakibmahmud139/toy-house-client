@@ -1,5 +1,6 @@
 import React from 'react';
-import { IoTrashOutline } from "react-icons/io5";
+import { IoTrashOutline, IoPencilSharp } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 
 
@@ -13,7 +14,7 @@ const MyToysCard = ({ toy, handleDelete }) => {
         <tr>
             <th>
                 <label>
-                    <input type="checkbox" className="checkbox" />
+                    <Link to={`/myToys/${_id}`}><button className="btn btn-outline btn-accent text-3xl"><IoPencilSharp /></button></Link>
                 </label>
             </th>
             <td>
