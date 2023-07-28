@@ -16,7 +16,7 @@ const Home = () => {
                             1000,
                             "Development and sale  of children's\n",
                             1000,
-                            "Development and sale  of children's car toys\n",
+                            "Development and sale  of children's car toys",
                             1000,
                         ]}
                         speed={25}
