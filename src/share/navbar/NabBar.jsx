@@ -1,23 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../public/vite.png';
+import logo from '../../../public/vite.png';
 
 const NabBar = () => {
 
 
     const navItems = <>
-        <li> <Link to='/'>Home</Link> </li>
-        <li> <Link to='/alltoys'>All Toys</Link> </li>
-        <li><Link to='/mytoys'>My Toys</Link> </li>
-        <li> <Link to='/addtoys'>Add Toys</Link> </li>
-        <li> <Link to='/blogs'>Blogs</Link> </li>
-        <li> <Link to='/login'>Login</Link> </li>
-        <li> <button>Logout</button> </li>
-        <li>User Profile</li>
+        <li> <Link to='/' className='text-gray-100 text-[16px]'>Home</Link> </li>
+        <li> <Link to='/alltoys' className='text-gray-100 text-[16px]'>All Toys</Link> </li>
+        <li><Link to='/mytoys' className='text-gray-100 text-[16px]'>My Toys</Link> </li>
+        <li> <Link to='/addtoys' className='text-gray-100 text-[16px]'>Add Toys</Link> </li>
+        <li> <Link to='/blogs' className='text-gray-100 text-[16px]'>Blogs</Link> </li>
+        <li> <Link to='/login' className='text-gray-100 text-[16px]'>Login</Link> </li>
+        <li> <button className='text-gray-100 text-[16px]'>Logout</button> </li>
+        <li className='text-gray-100 text-[16px] mt-2'>Profile</li>
     </>
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-gradient-to-r from-indigo-200 via-purple-300 to-pink-300 rounded-xl shadow-2xl mb-4">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -27,8 +27,8 @@ const NabBar = () => {
                         {navItems}
                     </ul>
                 </div>
-                <img className='w-32 h-32' src={logo} alt="" />
-                <Link to='/' className="btn btn-ghost normal-case text-xl">carToyHouse</Link>
+                <img className='w-16 h-16' src={logo} alt="" />
+                <Link to='/' className="btn btn-ghost normal-case text-3xl text-gray-100">carToyHouse</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
