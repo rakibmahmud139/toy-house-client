@@ -1,6 +1,6 @@
 import React from 'react';
-import { TypeAnimation } from 'react-type-animation';
 import GallerySection from '../../../share/gallerySection/GallerySection';
+import ShopByCategory from '../shopByCategory/ShopByCategory';
 
 const Home = () => {
     return (
@@ -16,6 +16,7 @@ const Home = () => {
                 </div>
             </div>
             <GallerySection />
+            <ShopByCategory />
         </div>
     );
 };
