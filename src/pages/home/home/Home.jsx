@@ -1,6 +1,7 @@
 import React from 'react';
 import GallerySection from '../../../share/gallerySection/GallerySection';
 import ShopByCategory from '../shopByCategory/ShopByCategory';
+import ToyReview from '../../../share/section1/toyReview';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             </div>
             <GallerySection />
             <ShopByCategory />
+            <ToyReview />
         </div>
     );
 };
