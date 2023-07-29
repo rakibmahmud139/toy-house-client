@@ -19,7 +19,7 @@ const MyToys = () => {
             cancelButtonColor: '#d33',
             confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
-            fetch(`http://localhost:5000/myToys/${id}`, {
+            fetch(`https://toy-house-assignment-server.vercel.app/myToys/${id}`, {
                 method: "DELETE"
             })
                 .then(res => res.json())

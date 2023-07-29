@@ -30,7 +30,7 @@ const AddToy = () => {
             img
         }
 
-        fetch('http://localhost:5000/myToys', {
+        fetch('https://toy-house-assignment-server.vercel.app/myToys', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
