@@ -7,7 +7,7 @@ const AllToys = () => {
 
     return (
         <div className='mb-16 mt-16'>
-            <div className='text-center space-y-4 mr-64 ml-64'>
+            <div className='text-center space-y-4 md:mr-64 md:ml-64'>
                 <h3 className='text-4xl text-accent'>Here the all category car toys like</h3>
                 <p>Racing Cars,  Monster Trucks, Emergency Vehicles, Off-Road Vehicles, Urban Cars,  Farm Vehicles, Sports Cars, Construction Vehicles etc..</p>
             </div>

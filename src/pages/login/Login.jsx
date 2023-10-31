@@ -30,7 +30,7 @@ const Login = () => {
     }
     return (
         <div className="hero min-h-screen bg-gradient-to-r from-pink-100 to-purple-100 mb-12 rounded-3xl">
-            <div className="hero-content flex-col lg:flex-row-reverse gap-64">
+            <div className="hero-content flex-col lg:flex-row-reverse md:gap-64">
                 <div className="text-center lg:text-left">
                     <img className='h-[496px] w-[480px] rounded-3xl shadow-2xl' src="https://img.freepik.com/free-vector/login-concept-illustration_114360-739.jpg?w=2000" alt="" />
                 </div>

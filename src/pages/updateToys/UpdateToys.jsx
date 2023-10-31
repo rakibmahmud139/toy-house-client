@@ -62,7 +62,7 @@ const UpdateToys = () => {
                     </label>
                     <input type="text" name='detail' defaultValue={detail} className="input input-bordered" />
                 </div>
-                <button className='btn btn-outline btn-accent mt-6 w-1/3 ml-[440px]'> <input type="submit" value="Update" /></button>
+                <button className='btn btn-outline btn-accent mt-6 w-1/3 md:ml-[440px]'> <input type="submit" value="Update" /></button>
             </form>
         </div>
     );
